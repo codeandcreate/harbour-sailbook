@@ -8,10 +8,10 @@ CoverBackground {
     Image
     {
         id: imgcover
-        source: "../resources/images/icon-cover.png"
+        source: "../resources/images/icon-cover.svg"
         asynchronous: true
         opacity: 0.2
-        width: parent.width * 1.15
+        width: parent.width * 0.8
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottom: parent.bottom
         fillMode: Image.PreserveAspectFit
