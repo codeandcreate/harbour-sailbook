@@ -3,6 +3,20 @@ import Sailfish.Silica 1.0
 import "../pages/js/util.js" as Util
 
 CoverBackground {
+    
+    // App icon
+    Image
+    {
+        id: imgcover
+        source: "../resources/images/icon-cover.png"
+        asynchronous: true
+        opacity: 0.2
+        width: parent.width * 1.15
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        fillMode: Image.PreserveAspectFit
+    }
+    
     Column {
         anchors { fill: parent; margins: Theme.horizontalPageMargin }
         spacing: Theme.paddingLarge
@@ -57,24 +71,6 @@ CoverBackground {
                 font.bold: true
                 color: Theme.highlightColor
                 text: Util.formatNotificationNumber(1)
-            }
-        }
-
-        // App name + icon
-        Row {
-            spacing: Theme.paddingMedium
-            anchors { left: parent.left; right: parent.right }
-
-            Image {
-                source: "../resources/images/icon-sailbook.svg"
-                width: Theme.iconSizeMedium*1.1
-                height: width
-                asynchronous: true
-            }
-
-            Label {
-                anchors { verticalCenter: parent.verticalCenter; }
-                text: "Sailbook"
             }
         }
     }
