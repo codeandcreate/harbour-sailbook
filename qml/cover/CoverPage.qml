@@ -11,7 +11,7 @@ CoverBackground {
         source: "../resources/images/icon-cover.svg"
         asynchronous: true
         opacity: 0.2
-        width: parent.width * 0.9
+        width: parent.width
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottom: parent.bottom
         anchors.bottomMargin: parent.bottomMargin
@@ -19,7 +19,12 @@ CoverBackground {
     }
 
     Column {
-        anchors { fill: parent; margins: Theme.horizontalPageMargin }
+		anchors {
+			fill: parent
+			topMargin: Theme.paddingMedium
+			leftMargin: Theme.paddingLarge
+			rightMargin: Theme.paddingLarge 
+		}
         spacing: Theme.paddingMedium
 
         // Messages
