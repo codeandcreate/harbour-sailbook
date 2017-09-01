@@ -76,7 +76,7 @@
     <name>CoverPage</name>
     <message>
         <source>unread</source>
-        <translation>mensaje</translation>
+        <translation>mensaje(s)</translation>
     </message>
     <message>
         <source>message(s)</source>
