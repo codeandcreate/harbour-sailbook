@@ -69,18 +69,18 @@
     </message>
     <message>
         <source>Matthias Weiß</source>
-        <translation type="unfinished"></translation>
+        <translation>Matthias Weiß</translation>
     </message>
 </context>
 <context>
     <name>CoverPage</name>
     <message>
         <source>unread</source>
-        <translation>no leído</translation>
+        <translation>mensaje</translation>
     </message>
     <message>
         <source>message(s)</source>
-        <translation>mensaje(s)</translation>
+        <translation>no leído(s)</translation>
     </message>
 </context>
 <context>
