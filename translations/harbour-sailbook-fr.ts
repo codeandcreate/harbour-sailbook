@@ -302,6 +302,10 @@
         <translation>Facebook</translation>
     </message>
     <message>
+        <source>Facebook nightmode</source>
+        <translation>Facebook nightmode</translation>
+    </message>
+    <message>
         <source>Pulldown menu</source>
         <translation>Menu déroulant</translation>
     </message>

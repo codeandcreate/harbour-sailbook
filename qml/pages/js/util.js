@@ -4,6 +4,8 @@ function getHighlightBackgroundColor(index) {
         return Theme.secondaryHighlightColor;
     case 1:
         return "#6778c9";
+    case 2:
+        return "#292929";
     }
 }
 
@@ -13,6 +15,8 @@ function getBackgroundColor(index) {
         return Theme.secondaryHighlightColor;
     case 1:
         return "#3b5998";
+    case 2:
+        return "#191919";
     }
 }
 
@@ -22,6 +26,8 @@ function getHighlightColor(index) {
         return Theme.highlightColor;
     case 1:
         return "#6778c9";
+    case 2:
+        return "#696969";
     }
 }
 
@@ -31,6 +37,8 @@ function getPrimaryColor(index) {
         return Theme.primaryColor;
     case 1:
         return "#f7f7f7";
+    case 2:
+        return "#AAAAAA";
     }
 }
 

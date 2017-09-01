@@ -302,6 +302,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Facebook nightmode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Pulldown menu</source>
         <translation type="unfinished"></translation>
     </message>
