@@ -70,3 +70,14 @@ function getFeedPriority(index) {
         return "h_nor";
     }
 }
+
+function getThemeFileName(index) {
+	//prepared for theming support:
+    switch(index) {
+    	case true:
+        	return "../resources/css/sailbook-theme-night.css";
+    	}
+
+	//default, blank theme:
+    return "../resources/css/sailbook.css";
+}
