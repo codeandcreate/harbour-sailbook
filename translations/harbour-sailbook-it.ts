@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Matthias Weiß</source>
-        <translation type="unfinished"></translation>
+        <translation>Matthias Weiß</translation>
     </message>
 </context>
 <context>
@@ -86,6 +86,10 @@
 <context>
     <name>FBWebview</name>
     <message>
+        <source>Facebook logout</source>
+        <translation>Logout</translation>
+    </message>
+    <message>
         <source>About</source>
         <translation>Info</translation>
     </message>
@@ -96,10 +100,6 @@
     <message>
         <source>Back</source>
         <translation>Indietro</translation>
-    </message>
-    <message>
-        <source>Facebook logout</source>
-        <translation>Logout</translation>
     </message>
 </context>
 <context>
@@ -194,30 +194,6 @@
         <translation>Attiva notifiche</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Intervallo notifiche</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Breve</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Medio</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Lungo</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Un intervallo più breve potrebbe aumentare il consumo di CPU e batteria, ma riceverai le notifiche più velocemente.</translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Molto lungo</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Aspetto</translation>
     </message>
@@ -303,7 +279,11 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
+<<<<<<< HEAD
         <translation>Facebook nightmode</translation>
+=======
+        <translation>Modalità notte</translation>
+>>>>>>> Sailbook/upgrade/9.5-0
     </message>
     <message>
         <source>Pulldown menu</source>
@@ -376,6 +356,22 @@
     <message>
         <source>Opening external link</source>
         <translation>Apertura link esterno</translation>
+    </message>
+    <message>
+        <source>friend request(s)</source>
+        <translation type="unfinished">richieste di amicizia</translation>
+    </message>
+    <message>
+        <source>You have</source>
+        <translation type="unfinished">Hai</translation>
+    </message>
+    <message>
+        <source>message(s)</source>
+        <translation type="unfinished">messaggi</translation>
+    </message>
+    <message>
+        <source>notification(s)</source>
+        <translation type="unfinished">notifiche</translation>
     </message>
 </context>
 <context>

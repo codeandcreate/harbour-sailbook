@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Matthias Weiß</source>
-        <translation type="unfinished"></translation>
+        <translation>Matthias Weiß</translation>
     </message>
 </context>
 <context>
@@ -86,6 +86,10 @@
 <context>
     <name>FBWebview</name>
     <message>
+        <source>Facebook logout</source>
+        <translation>Wyloguj z Facebook&apos;a</translation>
+    </message>
+    <message>
         <source>About</source>
         <translation>O</translation>
     </message>
@@ -96,10 +100,6 @@
     <message>
         <source>Back</source>
         <translation>Wstecz</translation>
-    </message>
-    <message>
-        <source>Facebook logout</source>
-        <translation>Wyloguj z Facebook&apos;a</translation>
     </message>
 </context>
 <context>
@@ -194,30 +194,6 @@
         <translation>Włącz powiadomienia</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Interwał wiadomości</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Szybki</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normalny</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Długi</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Zwiększenie interwału powiadomień może zwiększyć użycie CPU i baterii, ale będziesz dostawał powiadomienia szybciej. </translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Bargo długi</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Wygląd</translation>
     </message>
@@ -302,6 +278,10 @@
         <translation>Facebook</translation>
     </message>
     <message>
+        <source>Facebook nightmode</source>
+        <translation>Tryb nocny w Facebooku</translation>
+    </message>
+    <message>
         <source>Pulldown menu</source>
         <translation>Menu rozwijalne</translation>
     </message>
@@ -372,6 +352,22 @@
     <message>
         <source>Opening external link</source>
         <translation>Owieranie zewnętrzengo odnośnika</translation>
+    </message>
+    <message>
+        <source>friend request(s)</source>
+        <translation type="unfinished">zaproszenie(a) do znajomych</translation>
+    </message>
+    <message>
+        <source>You have</source>
+        <translation type="unfinished">Masz</translation>
+    </message>
+    <message>
+        <source>message(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>notification(s)</source>
+        <translation type="unfinished">powiadomienie(a)</translation>
     </message>
 </context>
 <context>

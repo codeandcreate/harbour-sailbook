@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Matthias Weiß</source>
-        <translation type="unfinished"></translation>
+        <translation>Matthias Weiß</translation>
     </message>
 </context>
 <context>
@@ -86,6 +86,10 @@
 <context>
     <name>FBWebview</name>
     <message>
+        <source>Facebook logout</source>
+        <translation>Facebook uloskirjautuminen</translation>
+    </message>
+    <message>
         <source>About</source>
         <translation>Tietoja</translation>
     </message>
@@ -96,10 +100,6 @@
     <message>
         <source>Back</source>
         <translation>Taakse</translation>
-    </message>
-    <message>
-        <source>Facebook logout</source>
-        <translation>Facebook uloskirjautuminen</translation>
     </message>
 </context>
 <context>
@@ -194,30 +194,6 @@
         <translation>Ota käyttöön ilmoitukset</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Ilmoitusten aikaväli</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Nopea</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normaali</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Pitkä</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Suorittimen ja akun käyttö voi kasvaa jos laitat ilmoitusten aikavälin nopeammalle mutta saat myös ilmoitukset nopeammin.</translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Hyvin pitkä</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Ulkoasu</translation>
     </message>
@@ -303,7 +279,11 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
+<<<<<<< HEAD
         <translation>Facebook nightmode</translation>
+=======
+        <translation>Facebook yötila</translation>
+>>>>>>> Sailbook/upgrade/9.5-0
     </message>
     <message>
         <source>Pulldown menu</source>
@@ -376,6 +356,22 @@
     <message>
         <source>Opening external link</source>
         <translation>Avaamalla ulkoisen osoitteen</translation>
+    </message>
+    <message>
+        <source>friend request(s)</source>
+        <translation type="unfinished">Kaveripyyntö(jä)</translation>
+    </message>
+    <message>
+        <source>You have</source>
+        <translation type="unfinished">Sinulla on</translation>
+    </message>
+    <message>
+        <source>message(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>notification(s)</source>
+        <translation type="unfinished">Ilmoituksia</translation>
     </message>
 </context>
 <context>
