@@ -86,10 +86,6 @@
 <context>
     <name>FBWebview</name>
     <message>
-        <source>Facebook logout</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
@@ -99,6 +95,10 @@
     </message>
     <message>
         <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Facebook logout</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -191,6 +191,30 @@
     </message>
     <message>
         <source>Enable notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notifications interval</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Quick</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Long</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Very long</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -351,22 +375,6 @@
     <name>messages</name>
     <message>
         <source>Opening external link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>friend request(s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You have</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>message(s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>notification(s)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

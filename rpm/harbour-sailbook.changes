@@ -8,13 +8,7 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Mon Sep 11 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 9.5-1
-- [MINOR BUGFIX] External links webview won't crash anymore with new splashscreen
-- [IMPROVEMENT] Notification backend now uses events
-
-* Sat Sep 2 2017 Matthias Weiß <info@codeandcreate.de> 9.4
-- [IMPROVEMENT] Nightmode
-- [NEW] Nightmode ambience
+* Fri Sep 1 2017 Matthias Weiß <info@codeandcreate.de> 9.3
 - [IMPROVEMENT] Fix for comments / hide of view switcher
 
 * Thu Aug 31 2017 Rudi Timmermans <rudi.timmer@gmx.us> 9.3

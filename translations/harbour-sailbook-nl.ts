@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Matthias Weiß</source>
-        <translation>Matthias Weiß</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -86,10 +86,6 @@
 <context>
     <name>FBWebview</name>
     <message>
-        <source>Facebook logout</source>
-        <translation>Facebook afmelden</translation>
-    </message>
-    <message>
         <source>About</source>
         <translation>Over</translation>
     </message>
@@ -100,6 +96,10 @@
     <message>
         <source>Back</source>
         <translation>Terug</translation>
+    </message>
+    <message>
+        <source>Facebook logout</source>
+        <translation>Facebook afmelden</translation>
     </message>
 </context>
 <context>
@@ -194,6 +194,30 @@
         <translation>Schakel notificaties in</translation>
     </message>
     <message>
+        <source>Notifications interval</source>
+        <translation>Notificatie interval</translation>
+    </message>
+    <message>
+        <source>Quick</source>
+        <translation>Snel</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normaal</translation>
+    </message>
+    <message>
+        <source>Long</source>
+        <translation>Lang</translation>
+    </message>
+    <message>
+        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
+        <translation>Het verhogen van het notificatie interval kan het CPU en batterij gebruik verhogen, maar je zal sneller notificaties ontvangen.</translation>
+    </message>
+    <message>
+        <source>Very long</source>
+        <translation>Extra lang</translation>
+    </message>
+    <message>
         <source>Appearance</source>
         <translation>Uitzicht</translation>
     </message>
@@ -279,11 +303,7 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-<<<<<<< HEAD
         <translation>Facebook nightmode</translation>
-=======
-        <translation>Facebook nacht modus</translation>
->>>>>>> Sailbook/upgrade/9.5-0
     </message>
     <message>
         <source>Pulldown menu</source>
@@ -356,22 +376,6 @@
     <message>
         <source>Opening external link</source>
         <translation>Open external link</translation>
-    </message>
-    <message>
-        <source>friend request(s)</source>
-        <translation type="unfinished">vriendschapsverzoek(en)</translation>
-    </message>
-    <message>
-        <source>You have</source>
-        <translation type="unfinished">Jij hebt</translation>
-    </message>
-    <message>
-        <source>message(s)</source>
-        <translation type="unfinished">bericht(en)</translation>
-    </message>
-    <message>
-        <source>notification(s)</source>
-        <translation type="unfinished">melding(en)</translation>
     </message>
 </context>
 <context>

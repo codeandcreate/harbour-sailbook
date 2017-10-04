@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtWebKit 3.0
+import QtWebKit.experimental 1.0
 import "./js/util.js" as Util
 import "./js/messages.js" as Messages
 import "./js/media.js" as Media
@@ -46,7 +47,6 @@ Item {
         anchors { fill: parent }
         experimental.preferences.javascriptEnabled: true
         experimental.preferences.navigatorQtObjectEnabled: true
-        experimental.preferences.developerExtrasEnabled: true
         experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
         experimental.userStyleSheets: {
           Qt.resolvedUrl(Util.getThemeFileName(settings.enableNightmode))

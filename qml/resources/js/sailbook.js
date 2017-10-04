@@ -1,4 +1,5 @@
-var msgCode = {"NOTIFICATION": 0, "EXTERNAL": 1, "VIDEO": 2, "DEBUG": 42};
+var msgCode = {"HTML": 0, "EXTERNAL": 1, "VIDEO": 2, "DEBUG": 42};
+var updateInterval = 1000;
 var nightModeState = false;
 
 // Create our JSON payload and send it to QML
@@ -28,17 +29,14 @@ function screenAdaption() {
     document.head.appendChild(meta);
 }
 
-// Create notificationObject
-function getNotificationsData() {
-    var notificationsData = document.getElementsByClassName("_59tg");
-    var notificationObject = new Object;
-    notificationObject.feed = parseInt(notificationsData[0].innerText) || 0;
-    notificationObject.friends = parseInt(notificationsData[1].innerText) || 0;
-    notificationObject.messenger = parseInt(notificationsData[2].innerText) || 0;
-    notificationObject.notifications = parseInt(notificationsData[3].innerText) || 0;
-    notificationObject.search = parseInt(notificationsData[4].innerText) || 0;
-    notificationObject.options = parseInt(notificationsData[5].innerText) || 0;
-    return notificationObject;
+// Update HTML for Python
+function updateHTML() {
+    send(msgCode["HTML"], document.documentElement.innerHTML);
+    setTimeout(updateHTML, updateInterval)
+}
+
+function setUpdateInterval(interval) {
+    updateInterval = interval;
 }
 
 // Detect external links
@@ -76,20 +74,9 @@ function findFacebookVideo(touchEvent) {
     return video.src;
 }
 
-<<<<<<< HEAD
 // Execute on load
 screenAdaption();
 updateHTML();
-=======
-// Execute on load: attach evenlisteners and adapt screensizes
-screenAdaption();
-var notificationClasses = document.getElementsByClassName('_59tg');
-for(var i=0; i<notificationClasses.length; i++) {
-    notificationClasses[i].addEventListener('DOMSubtreeModified', function() {
-        send(msgCode["NOTIFICATION"], getNotificationsData());
-    }, false);
-}
->>>>>>> Sailbook/upgrade/9.5-0
 document.addEventListener('click', function(element) { // Trigger on link click
     var externalUrl = findHyperlink(element.target);
     if(externalUrl.match("lm.facebook.com")) { // Valid external link detection
@@ -107,11 +94,7 @@ navigator.qt.onmessage = function(msg) { // Receive data from QML
     msg = JSON.parse(msg.data);
     switch(msg.type) {
     case 0: // Notification interval settings
-<<<<<<< HEAD
         updateInterval = msg.data * 3333 + 1000; // Formula: 1000 + currentIndex * 3333
-=======
-        //updateInterval = msg.data * 3333 + 1000; // Formula: 1000 + currentIndex * 3333
->>>>>>> Sailbook/upgrade/9.5-0
         break;
     }
 }

@@ -13,10 +13,10 @@ Name:       harbour-sailbook
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailbook
-Version:    9.5
-Release:    1
+Version:    9.3
+Release:    0
 Group:      Qt/Qt
-License:    GPLv3
+License:    LICENSE
 URL:        https://gitlab.com/Xray2000/harbour-sailbook
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-sailbook.yaml
