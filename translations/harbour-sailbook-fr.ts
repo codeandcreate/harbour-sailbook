@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -75,12 +73,19 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>unread</source>
-        <translation>non-lu</translation>
-    </message>
-    <message>
         <source>message(s)</source>
         <translation>message(s)</translation>
+    </message>
+    <message>
+        <source>Unread</source>
+        <translation>Non lu</translation>
+    </message>
+</context>
+<context>
+    <name>ExternalWebview</name>
+    <message>
+        <source>No network</source>
+        <translation>Pas de réseau</translation>
     </message>
 </context>
 <context>
@@ -98,8 +103,13 @@
         <translation>Retour</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Facebook logout</source>
         <translation>Déconnexion de Facebook</translation>
+=======
+        <source>No network</source>
+        <translation>Pas de réseau</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -112,47 +122,16 @@
         <source>Save</source>
         <translation>Enregistrer</translation>
     </message>
+    <message>
+        <source>Saving image complete</source>
+        <translation>Het opslaan van de afbeelding is voltooid</translation>
+    </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
         <translation>Téléverser une image</translation>
-    </message>
-</context>
-<context>
-    <name>InputPage</name>
-    <message>
-        <source>Name</source>
-        <translation>Nom</translation>
-    </message>
-    <message>
-        <source>The right extension is automatically added.</source>
-        <translation>La bonne extension est ajoutée automatiquement.</translation>
-    </message>
-    <message>
-        <source>Saving image OK!</source>
-        <translation>Image enregistrée !</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Échec de l&apos;enregistrement de l&apos;image !</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Téléchargement terminé !</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Échec du téléchargement !</translation>
-    </message>
-    <message>
-        <source>File name</source>
-        <translation>Nom de fichier</translation>
-    </message>
-    <message>
-        <source>Name of the file</source>
-        <translation>Le nom du fichier</translation>
     </message>
 </context>
 <context>
@@ -176,18 +155,6 @@
     <message>
         <source>external browser</source>
         <translation>navigateur externe</translation>
-    </message>
-    <message>
-        <source>Video quality</source>
-        <translation>Qualité de la video</translation>
-    </message>
-    <message>
-        <source>360p (SD)</source>
-        <translation>360p (SD)</translation>
-    </message>
-    <message>
-        <source>720p (HD)</source>
-        <translation>720p (HD)</translation>
     </message>
     <message>
         <source>Enable notifications</source>
@@ -224,18 +191,6 @@
     <message>
         <source>External links</source>
         <translation>Liens externes</translation>
-    </message>
-    <message>
-        <source>Video player</source>
-        <translation>Lecteur video</translation>
-    </message>
-    <message>
-        <source>Enable native videoplayer</source>
-        <translation>Activer le lecteur video intégré</translation>
-    </message>
-    <message>
-        <source>Enable nightmode</source>
-        <translation>Activer le mode nuit</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -326,23 +281,8 @@
         <translation>Meilleures histoires</translation>
     </message>
     <message>
-        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 utilisera des couleurs sombres pour réduire la fatigue oculaire pendant que vous parcourez facebook dans le noir.</translation>
-    </message>
-    <message>
-        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 ouvrira les videos Facebook et Youtube dans son propre lecteur. Si l&apos;option est désactivé, elle seront ouverte dans le navigateur internet.</translation>
-    </message>
-    <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 vous enverra des notifications lorsque vous recevez un nouveau message, une notification, ou une nouvelle demande d&apos;ami.</translation>
-    </message>
-</context>
-<context>
-    <name>SplashScreen</name>
-    <message>
-        <source>Connecting...</source>
-        <translation>Connexion...</translation>
     </message>
 </context>
 <context>
@@ -359,42 +299,73 @@
 <context>
     <name>VideoPage</name>
     <message>
+        <source>Error!</source>
+        <translation>Fout!</translation>
+    </message>
+    <message>
         <source>Videoplayer</source>
         <translation>Lecteur video</translation>
-    </message>
-    <message>
-        <source>Unable to play this video</source>
-        <translation>Impossible de lire cette video</translation>
-    </message>
-    <message>
-        <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Utiliser le menu déroulant pour l&apos;ouvrir dans le navigateur.</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
-        <source>Opening external link</source>
-        <translation>Ouverture du lien externe</translation>
+        <source>New friend request</source>
+        <translation>Nouvelle demande d&apos;ami</translation>
     </message>
+    <message>
+        <source>New friend requests</source>
+        <translation>Nouvelles demandes d&apos;ami</translation>
+    </message>
+    <message>
+        <source>New message</source>
+        <translation>Nouveau message</translation>
+    </message>
+<<<<<<< HEAD
 </context>
 <context>
     <name>notify</name>
+=======
     <message>
-        <source>You have</source>
-        <translation>Vous avez</translation>
+        <source>New messages</source>
+        <translation>Nouveaux messages</translation>
     </message>
     <message>
-        <source>message(s)</source>
-        <translation>message(s)</translation>
+        <source>New notification</source>
+        <translation>Nouvelle notification</translation>
     </message>
     <message>
-        <source>friend request(s)</source>
-        <translation>Demande d&apos;ami(s)</translation>
+        <source>New notifications</source>
+        <translation>Nouvelles notifications</translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation>Notification(s)</translation>
+        <source>You have %1 new friend request</source>
+        <translation>Vous avez %1 nouvelle demande d&apos;ami</translation>
+    </message>
+>>>>>>> upstream/master
+    <message>
+        <source>You have %1 friend requests</source>
+        <translation>Vous avez %1 demandes d&apos;ami</translation>
+    </message>
+    <message>
+        <source>You have %1 new message</source>
+        <translation>Vous avez %1 nouveau message</translation>
+    </message>
+    <message>
+        <source>You have %1 messages</source>
+        <translation>Vous avez %1 messages</translation>
+    </message>
+    <message>
+        <source>You have %1 new notification</source>
+        <translation>Vous avez %1 nouvelle notification</translation>
+    </message>
+    <message>
+        <source>You have %1 notifications</source>
+        <translation>Vous avez %1 notifications</translation>
+    </message>
+    <message>
+        <source>Opening external link</source>
+        <translation>Externe link openen</translation>
     </message>
 </context>
 </TS>

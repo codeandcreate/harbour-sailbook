@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -75,12 +73,19 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>unread</source>
-        <translation>lukemattomat</translation>
-    </message>
-    <message>
         <source>message(s)</source>
         <translation>Viestit</translation>
+    </message>
+    <message>
+        <source>Unread</source>
+        <translation>Lukemattomat</translation>
+    </message>
+</context>
+<context>
+    <name>ExternalWebview</name>
+    <message>
+        <source>No network</source>
+        <translation>Ei verkkoa</translation>
     </message>
 </context>
 <context>
@@ -98,8 +103,13 @@
         <translation>Taakse</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Facebook logout</source>
         <translation>Facebook uloskirjautuminen</translation>
+=======
+        <source>No network</source>
+        <translation>Ei verkkoa</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -112,47 +122,16 @@
         <source>Save</source>
         <translation>Tallenna</translation>
     </message>
+    <message>
+        <source>Saving image complete</source>
+        <translation>Kuvan tallennus valmis</translation>
+    </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
         <translation>Lataa kuva</translation>
-    </message>
-</context>
-<context>
-    <name>InputPage</name>
-    <message>
-        <source>Name</source>
-        <translation>Nimi</translation>
-    </message>
-    <message>
-        <source>The right extension is automatically added.</source>
-        <translation>Oikea liitännäinen on automaattisesti lisätty</translation>
-    </message>
-    <message>
-        <source>Saving image OK!</source>
-        <translation>Kuvan tallennus valmis</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Kuvan tallennus epäonnistui</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Lataus on valmistunut!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Lataus epäonnistui!</translation>
-    </message>
-    <message>
-        <source>File name</source>
-        <translation>Tiedostonimi</translation>
-    </message>
-    <message>
-        <source>Name of the file</source>
-        <translation>Tiedoston nimi</translation>
     </message>
 </context>
 <context>
@@ -176,18 +155,6 @@
     <message>
         <source>external browser</source>
         <translation>Ulkoinen selain</translation>
-    </message>
-    <message>
-        <source>Video quality</source>
-        <translation>Videon laatu</translation>
-    </message>
-    <message>
-        <source>360p (SD)</source>
-        <translation>360p (Peruslaatu)</translation>
-    </message>
-    <message>
-        <source>720p (HD)</source>
-        <translation>720p (Korkea laatu)</translation>
     </message>
     <message>
         <source>Enable notifications</source>
@@ -224,18 +191,6 @@
     <message>
         <source>External links</source>
         <translation>Ulkoiset osoitteet</translation>
-    </message>
-    <message>
-        <source>Video player</source>
-        <translation>Videosoitin</translation>
-    </message>
-    <message>
-        <source>Enable native videoplayer</source>
-        <translation>Ota käyttöön paikallinen videosoitin</translation>
-    </message>
-    <message>
-        <source>Enable nightmode</source>
-        <translation>Ota käyttöön yötila</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -326,23 +281,8 @@
         <translation>Parhaat tarinat</translation>
     </message>
     <message>
-        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 käyttää tummia värejä vähentääkseen silmien rasitusta kun käytät Facebookkia pimeässä.</translation>
-    </message>
-    <message>
-        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 avaa Facebook ja Youtube videot omassa videosoittimessaan. Jos tämä on disabloitu, avataan ne ulkoisessa selaimessa.</translation>
-    </message>
-    <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 lähettää ilmoituksia kun saat uuden viestin, uuden ilmoituksen tai kaveripyynnön.</translation>
-    </message>
-</context>
-<context>
-    <name>SplashScreen</name>
-    <message>
-        <source>Connecting...</source>
-        <translation>Yhdistetään...</translation>
     </message>
 </context>
 <context>
@@ -359,42 +299,73 @@
 <context>
     <name>VideoPage</name>
     <message>
+        <source>Error!</source>
+        <translation>Virhe!</translation>
+    </message>
+    <message>
         <source>Videoplayer</source>
         <translation>Videosoitin</translation>
-    </message>
-    <message>
-        <source>Unable to play this video</source>
-        <translation>Videon toistaminen ei onnistu</translation>
-    </message>
-    <message>
-        <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Käytä ylhäältä pyyhkäistävää valikkoa avataksesi sen selaimessa.</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
-        <source>Opening external link</source>
-        <translation>Avaamalla ulkoisen osoitteen</translation>
+        <source>New friend request</source>
+        <translation>Uusi kaveripyyntö</translation>
     </message>
+    <message>
+        <source>New friend requests</source>
+        <translation>Uusia kaveripyyntöjä</translation>
+    </message>
+    <message>
+        <source>New message</source>
+        <translation>Uusi viesti</translation>
+    </message>
+<<<<<<< HEAD
 </context>
 <context>
     <name>notify</name>
+=======
     <message>
-        <source>You have</source>
-        <translation>Sinulla on</translation>
+        <source>New messages</source>
+        <translation>Uusia viestejä</translation>
     </message>
     <message>
-        <source>message(s)</source>
-        <translation>Viestejä</translation>
+        <source>New notification</source>
+        <translation>Uusi ilmoitus</translation>
     </message>
     <message>
-        <source>friend request(s)</source>
-        <translation>Kaveripyyntö(jä)</translation>
+        <source>New notifications</source>
+        <translation>Uusia ilmoituksia</translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation>Ilmoituksia</translation>
+        <source>You have %1 new friend request</source>
+        <translation>Sinulle on %1 uusi kaveripyyntö</translation>
+    </message>
+>>>>>>> upstream/master
+    <message>
+        <source>You have %1 friend requests</source>
+        <translation>Sinulla on %1 kaveripyyntöä</translation>
+    </message>
+    <message>
+        <source>You have %1 new message</source>
+        <translation>Sinulle on %1 uusi viesti</translation>
+    </message>
+    <message>
+        <source>You have %1 messages</source>
+        <translation>Sinulla on %1 viestejä</translation>
+    </message>
+    <message>
+        <source>You have %1 new notification</source>
+        <translation>Sinulle on %1 uusia ilmoituksia</translation>
+    </message>
+    <message>
+        <source>You have %1 notifications</source>
+        <translation>Sinulla on %1 ilmoituksia</translation>
+    </message>
+    <message>
+        <source>Opening external link</source>
+        <translation>Avaamalla ulkoisen osoitteen</translation>
     </message>
 </context>
 </TS>

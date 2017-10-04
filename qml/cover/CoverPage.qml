@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import "../pages/js/util.js" as Util
+import "../js/util.js" as Util
 
 CoverBackground {
 
@@ -8,7 +8,7 @@ CoverBackground {
     Image
     {
         id: imgcover
-        source: "../resources/images/icon-cover.svg"
+        source: "qrc:///images/icon-cover.svg"
         asynchronous: true
         opacity: 0.2
         width: parent.width
@@ -19,12 +19,12 @@ CoverBackground {
     }
 
     Column {
-		anchors {
-			fill: parent
-			topMargin: Theme.paddingMedium
-			leftMargin: Theme.paddingLarge
-			rightMargin: Theme.paddingLarge 
-		}
+        anchors {
+            fill: parent
+            topMargin: Theme.paddingMedium
+            leftMargin: Theme.paddingLarge
+            rightMargin: Theme.paddingLarge
+        }
         spacing: Theme.paddingMedium
 
         // Messages
@@ -42,12 +42,12 @@ CoverBackground {
 
             Label {
                 wrapMode: Text.WordWrap
-                text: qsTr("unread") + "\n" + qsTr("message(s)")
+                text: qsTr("Unread") + "\n" + qsTr("message(s)")
                 font.pixelSize: Theme.fontSizeExtraSmall
                 font.family: Theme.fontFamilyHeading
                 font.weight: Font.Light
                 lineHeight: 0.8
-                truncationMode: TruncationMode.Fade 
+                truncationMode: TruncationMode.Fade
 
                 anchors {
                     left: numberOfMessages.right
@@ -66,7 +66,7 @@ CoverBackground {
             Image {
                 width: Theme.iconSizeSmall
                 height: width
-                source: "../resources/images/icon-notifications.svg"
+                source: "qrc:///images/icon-notifications.svg"
                 anchors {
                     verticalCenter: numberOfNotifications.verticalCenter
                 }
@@ -81,7 +81,7 @@ CoverBackground {
             Image {
                 width: Theme.iconSizeSmall*1.1
                 height: width
-                source: "../resources/images/icon-requests.svg"
+                source: "qrc:///images/icon-requests.svg"
                 anchors {
                     verticalCenter: numberOfFriendRequests.verticalCenter
                 }

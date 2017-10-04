@@ -30,10 +30,10 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import io.thp.pyotherside 1.3
 import org.nemomobile.configuration 1.0
+import org.nemomobile.dbus 2.0
 import "pages"
-import "./pages/js/notify.js" as Notify
+import "./js/util.js" as Util
 
 ApplicationWindow
 {
@@ -43,11 +43,13 @@ ApplicationWindow
     allowedOrientations: Orientation.All
     _defaultPageOrientations: Orientation.All
 
-    property bool pythonReady
-    property bool connected: true // Improve startup speed
     property variant notifications: [0,0,0,0,0,0,0,0,0]
     property string appName: "Sailbook"
+<<<<<<< HEAD
     property string version: "9.3"
+=======
+    property string version: "10.0-0"
+>>>>>>> upstream/master
     property string userAgentName
     property string userAgent
 
@@ -76,6 +78,7 @@ ApplicationWindow
         property int externalLink: 0
         property int videoQuality: 0
     }
+<<<<<<< HEAD
 
     Toaster { id: toaster }
     NotificationManager { id: notifyRequests }
@@ -124,5 +127,7 @@ ApplicationWindow
         onError: console.log("Error: %1".arg(traceback));
         onReceived: console.log("Message: " + JSON.stringify(data));
     }
+=======
+>>>>>>> upstream/master
 }
 

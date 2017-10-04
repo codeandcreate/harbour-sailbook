@@ -1,6 +1,7 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
-import "./js/util.js" as Util
+import "../js/util.js" as Util
+import "../components"
 
 Page {
     SilicaFlickable {
@@ -25,7 +26,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("GitHub")
-                iconSource: "../resources/images/icon-github.png"
+                iconSource: "qrc:///images/icon-github.png"
                 onClicked: { Qt.openUrlExternally("https://github.com/Sailbook/harbour-sailbook");
                 }
             }
@@ -35,7 +36,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Telegram Sailbook Group")
-                iconSource: "../resources/images/icon-telegram.png"
+                iconSource: "qrc:///images/icon-telegram.png"
                 onClicked: { Qt.openUrlExternally("https://t.me/joinchat/Fcodjwu4wFLZDSO_AsMQaQ");
                 }
             }
@@ -45,7 +46,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Rudi Timmermans")
-                iconSource: "../resources/images/image-rudi.jpg"
+                iconSource: "qrc:///images/image-rudi.jpg"
                 onClicked: { Qt.openUrlExternally("https://www.twitter.com/xray20001");
                 }
             }
@@ -53,7 +54,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Dylan Van Assche")
-                iconSource: "../resources/images/image-dylan.jpg"
+                iconSource: "qrc:///images/image-dylan.jpg"
                 onClicked: { Qt.openUrlExternally("https://www.github.com/modulebaan");
                 }
             }
@@ -61,7 +62,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Matthias Weiß")
-                iconSource: "../resources/images/image-matthias.jpg"
+                iconSource: "qrc:///images/image-matthias.jpg"
                 onClicked: { Qt.openUrlExternally("https://github.com/codeandcreate");
                 }
             }
@@ -69,7 +70,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Donate with Paypal")
-                iconSource: "../resources/images/icon-paypal.png"
+                iconSource: "qrc:///images/icon-paypal.png"
                 onClicked: { Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6Z4P9MAAD996W");
                 }
             }
@@ -79,8 +80,8 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Translations")
-                iconSource: "../resources/images/icon-trans.png"
-                onClicked: pageStack.push(Qt.resolvedUrl("TranslationsPage.qml"))
+                iconSource: "qrc:///images/icon-trans.png"
+                onClicked: pageStack.push(Qt.resolvedUrl("../pages/TranslationsPage.qml"))
             }
 
             SectionHeader { text: qsTr("Icons") }

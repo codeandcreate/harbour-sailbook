@@ -13,18 +13,27 @@ Name:       harbour-sailbook
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailbook
+<<<<<<< HEAD
 Version:    9.3
 Release:    0
 Group:      Qt/Qt
 License:    LICENSE
 URL:        https://gitlab.com/Xray2000/harbour-sailbook
+=======
+Version:    10.0
+Release:    3
+Group:      Qt/Qt
+License:    GPLv3
+URL:        https://github.com/DylanVanAssche/harbour-sailbook
+>>>>>>> upstream/master
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-sailbook.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
-Requires:   pyotherside-qml-plugin-python3-qt5 >= 1.3
-Requires:   nemo-qml-plugin-configuration-qt5 >= 0.0.1
-Requires:   nemo-qml-plugin-notifications-qt5 >= 0.0.1
+Requires:   nemo-qml-plugin-dbus-qt5
+Requires:   nemo-qml-plugin-configuration-qt5
+Requires:   nemo-qml-plugin-notifications-qt5
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
+BuildRequires:  pkgconfig(nemonotifications-qt5)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)
@@ -44,7 +53,8 @@ Sailbook is an unofficial Facebook client for Sailfish OS
 # >> build pre
 # << build pre
 
-%qtc_qmake5 
+%qtc_qmake5  \
+    VERSION=%{version}
 
 %qtc_make %{?_smp_mflags}
 

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -75,12 +73,19 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>unread</source>
-        <translation>ongelezen</translation>
-    </message>
-    <message>
         <source>message(s)</source>
         <translation>bericht(en)</translation>
+    </message>
+    <message>
+        <source>Unread</source>
+        <translation>Ongelezen</translation>
+    </message>
+</context>
+<context>
+    <name>ExternalWebview</name>
+    <message>
+        <source>No network</source>
+        <translation>Geen netwerk</translation>
     </message>
 </context>
 <context>
@@ -98,8 +103,13 @@
         <translation>Terug</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Facebook logout</source>
         <translation>Facebook afmelden</translation>
+=======
+        <source>No network</source>
+        <translation>Geen netwerk</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -112,47 +122,16 @@
         <source>Save</source>
         <translation>Bewaar</translation>
     </message>
+    <message>
+        <source>Saving image complete</source>
+        <translation>Het opslaan van de afbeelding is voltooid</translation>
+    </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
         <translation>Upload afbeelding</translation>
-    </message>
-</context>
-<context>
-    <name>InputPage</name>
-    <message>
-        <source>Name</source>
-        <translation>Naam</translation>
-    </message>
-    <message>
-        <source>The right extension is automatically added.</source>
-        <translation>De juiste extensie wordt automatisch toegevoegd.</translation>
-    </message>
-    <message>
-        <source>Saving image OK!</source>
-        <translation>Afbeeldingen opslaan OK!</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Afbeeldingen opslaan mislukt!</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Download compleet!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Download mislukt!</translation>
-    </message>
-    <message>
-        <source>File name</source>
-        <translation>Bestandsnaam</translation>
-    </message>
-    <message>
-        <source>Name of the file</source>
-        <translation>De naam van het bestand</translation>
     </message>
 </context>
 <context>
@@ -176,18 +155,6 @@
     <message>
         <source>external browser</source>
         <translation>externe browser</translation>
-    </message>
-    <message>
-        <source>Video quality</source>
-        <translation>Video kwaliteit</translation>
-    </message>
-    <message>
-        <source>360p (SD)</source>
-        <translation>360p (SD)</translation>
-    </message>
-    <message>
-        <source>720p (HD)</source>
-        <translation>720p (HD)</translation>
     </message>
     <message>
         <source>Enable notifications</source>
@@ -224,18 +191,6 @@
     <message>
         <source>External links</source>
         <translation>Externe links</translation>
-    </message>
-    <message>
-        <source>Video player</source>
-        <translation>Video speler</translation>
-    </message>
-    <message>
-        <source>Enable native videoplayer</source>
-        <translation>Schakel de ingebouwde video speler in</translation>
-    </message>
-    <message>
-        <source>Enable nightmode</source>
-        <translation>Schakel nachtmodes in</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -326,23 +281,8 @@
         <translation>Topverhalen</translation>
     </message>
     <message>
-        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 zullen donkere kleuren te gebruiken om vermoeide ogen te verminderen tijdens het surfen op Facebook.</translation>
-    </message>
-    <message>
-        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 zal Facebook en Youtube videos openen in zijn ingebouwde video speler. Indien uitgeschakeld, zullen deze worden geopend in de externe browser.</translation>
-    </message>
-    <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 zal je meldingen sturen wanneer je een nieuw bericht, een nieuwe aanmelding of een vriend verzoek krijgt.</translation>
-    </message>
-</context>
-<context>
-    <name>SplashScreen</name>
-    <message>
-        <source>Connecting...</source>
-        <translation>Verbinden maken...</translation>
     </message>
 </context>
 <context>
@@ -359,42 +299,73 @@
 <context>
     <name>VideoPage</name>
     <message>
+        <source>Error!</source>
+        <translation>Fout!</translation>
+    </message>
+    <message>
         <source>Videoplayer</source>
         <translation>Video speler</translation>
-    </message>
-    <message>
-        <source>Unable to play this video</source>
-        <translation>Kan deze video niet af spelen</translation>
-    </message>
-    <message>
-        <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Gebruik het pulley menu om dit te openen in de browser.</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
-        <source>Opening external link</source>
-        <translation>Open external link</translation>
+        <source>New friend request</source>
+        <translation>Nieuw vriend verzoek</translation>
     </message>
+    <message>
+        <source>New friend requests</source>
+        <translation>Nieuwe vrienden verzoeken</translation>
+    </message>
+    <message>
+        <source>New message</source>
+        <translation>Nieuw bericht</translation>
+    </message>
+<<<<<<< HEAD
 </context>
 <context>
     <name>notify</name>
+=======
     <message>
-        <source>You have</source>
-        <translation>Jij hebt</translation>
+        <source>New messages</source>
+        <translation>Nieuwe berichten</translation>
     </message>
     <message>
-        <source>message(s)</source>
-        <translation>bericht(en)</translation>
+        <source>New notification</source>
+        <translation>Nieuwe melding</translation>
     </message>
     <message>
-        <source>friend request(s)</source>
-        <translation>vriendschapsverzoek(en)</translation>
+        <source>New notifications</source>
+        <translation>Nieuwe meldingen</translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation>melding(en)</translation>
+        <source>You have %1 new friend request</source>
+        <translation>U heeft %1 nieuwe vriendschapsverzoek</translation>
+    </message>
+>>>>>>> upstream/master
+    <message>
+        <source>You have %1 friend requests</source>
+        <translation>U heeft %1 vriendverzoeken</translation>
+    </message>
+    <message>
+        <source>You have %1 new message</source>
+        <translation>U heeft %1 nieuw bericht</translation>
+    </message>
+    <message>
+        <source>You have %1 messages</source>
+        <translation>U heeft %1 berichten</translation>
+    </message>
+    <message>
+        <source>You have %1 new notification</source>
+        <translation>U heeft %1 nieuwe melding</translation>
+    </message>
+    <message>
+        <source>You have %1 notifications</source>
+        <translation>U heeft %1 meldingen</translation>
+    </message>
+    <message>
+        <source>Opening external link</source>
+        <translation>Externe link openen</translation>
     </message>
 </context>
 </TS>

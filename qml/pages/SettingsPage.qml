@@ -1,6 +1,6 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
-import "./js/util.js" as Util
+import "../js/util.js" as Util
 
 Dialog {
 
@@ -20,7 +20,6 @@ Dialog {
         settings.placeBack = placeBack.currentIndex
         settings.intervalNotifications = notificationsInterval.currentIndex
         settings.theme = theme.currentIndex
-        settings.enableNightmode = enableNightmode.checked
         settings.externalLink = externalLink.currentIndex
         settings.enableVideoPlayer = enableVideoPlayer.checked
         settings.videoQuality = videoQuality.currentIndex
@@ -50,13 +49,6 @@ Dialog {
                     MenuItem { text: qsTr("Facebook") }
                     MenuItem { text: qsTr("Facebook nightmode") }
                 }
-            }
-
-            TextSwitch {
-                id: enableNightmode
-                text: qsTr("Enable nightmode")
-                checked: settings.enableNightmode
-                description: qsTr("%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.").arg("Sailbook")
             }
 
             ComboBox {
@@ -154,32 +146,12 @@ Dialog {
                 }
             }
 
-            SectionHeader{ text: qsTr("Video player") }
-
-            TextSwitch {
-                id: enableVideoPlayer
-                text: qsTr("Enable native videoplayer")
-                enabled: settings.externalLink==0
-                checked: settings.enableVideoPlayer
-                description: qsTr("%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.").arg("Sailbook")
-            }
-
-            ComboBox {
-                id: videoQuality
-                label: qsTr("Video quality")
-                currentIndex: settings.videoQuality
-                menu: ContextMenu {
-                    MenuItem { text: qsTr("360p (SD)") }
-                    MenuItem { text: qsTr("720p (HD)") }
-                }
-            }
-
             SectionHeader{ text: qsTr("Notifications") }
 
             IconTextSwitch {
                 id: notifications
                 text: qsTr("Enable notifications")
-                icon.source: "../resources/images/icon-notifications.png"
+                icon.source: "qrc:///images/icon-notifications.png"
                 icon.scale: Theme.iconSizeMedium/icon.width // Scale icons according to the screen sizes
                 checked: settings.enableNotifications
                 description: qsTr("%1 will send you notifications when you have a new message, a new notification or a friend request.").arg("Sailbook")

@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Iconos de Sailbook hechos por Alain Molteni.</translation>
+        <translation>Iconos hechos por Alain Molteni.</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
@@ -75,12 +75,19 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>unread</source>
-        <translation>mensaje(s)</translation>
+        <source>message(s)</source>
+        <translation>no leído (s)</translation>
     </message>
     <message>
-        <source>message(s)</source>
-        <translation>no leído(s)</translation>
+        <source>Unread</source>
+        <translation>mensaje (s)</translation>
+    </message>
+</context>
+<context>
+    <name>ExternalWebview</name>
+    <message>
+        <source>No network</source>
+        <translation>Sin red</translation>
     </message>
 </context>
 <context>
@@ -98,8 +105,13 @@
         <translation>Regresar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Facebook logout</source>
         <translation>Cerrar sesión</translation>
+=======
+        <source>No network</source>
+        <translation>Sin red</translation>
+>>>>>>> upstream/master
     </message>
 </context>
 <context>
@@ -112,47 +124,16 @@
         <source>Save</source>
         <translation>Guardar</translation>
     </message>
+    <message>
+        <source>Saving image complete</source>
+        <translation>Guardando la imagen completa</translation>
+    </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
         <translation>Cargar imagen</translation>
-    </message>
-</context>
-<context>
-    <name>InputPage</name>
-    <message>
-        <source>Name</source>
-        <translation>Nombre</translation>
-    </message>
-    <message>
-        <source>The right extension is automatically added.</source>
-        <translation>La extensión correcta está auto agregada</translation>
-    </message>
-    <message>
-        <source>Saving image OK!</source>
-        <translation>Guardando imagen!</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Error al guardar imagen!</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Descarga completa!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Error de descarga!</translation>
-    </message>
-    <message>
-        <source>File name</source>
-        <translation>Nombre de archivo</translation>
-    </message>
-    <message>
-        <source>Name of the file</source>
-        <translation>Nombre del archivo</translation>
     </message>
 </context>
 <context>
@@ -176,18 +157,6 @@
     <message>
         <source>external browser</source>
         <translation>navegador externo</translation>
-    </message>
-    <message>
-        <source>Video quality</source>
-        <translation>Calidad de video</translation>
-    </message>
-    <message>
-        <source>360p (SD)</source>
-        <translation>360p (SD)</translation>
-    </message>
-    <message>
-        <source>720p (HD)</source>
-        <translation>720p (HD)</translation>
     </message>
     <message>
         <source>Enable notifications</source>
@@ -224,18 +193,6 @@
     <message>
         <source>External links</source>
         <translation>Enlaces externos</translation>
-    </message>
-    <message>
-        <source>Video player</source>
-        <translation>Reproductor de video</translation>
-    </message>
-    <message>
-        <source>Enable native videoplayer</source>
-        <translation>Reproductor de video nativo</translation>
-    </message>
-    <message>
-        <source>Enable nightmode</source>
-        <translation>Modo de noche</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -303,7 +260,11 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
+<<<<<<< HEAD
         <translation>Facebook nightmode</translation>
+=======
+        <translation>Modo de noche</translation>
+>>>>>>> upstream/master
     </message>
     <message>
         <source>Pulldown menu</source>
@@ -319,30 +280,15 @@
     </message>
     <message>
         <source>Most recent</source>
-        <translation>Más reciente</translation>
+        <translation>Más recientes</translation>
     </message>
     <message>
         <source>Top stories</source>
         <translation>Historias superiores</translation>
     </message>
     <message>
-        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 usará colores oscuros para reducir la fatiga ocular mientras navega en facebook en la oscuridad.</translation>
-    </message>
-    <message>
-        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 abrirá los videos de facebook y youtube en el reprodutor de video nativo. Si está deshabilitado, se abrirán en el navegador externo.</translation>
-    </message>
-    <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 notificará sobre un nuevo mensaje, una nueva notificación o una solicitud de amistad.</translation>
-    </message>
-</context>
-<context>
-    <name>SplashScreen</name>
-    <message>
-        <source>Connecting...</source>
-        <translation>Conectando...</translation>
     </message>
 </context>
 <context>
@@ -359,42 +305,73 @@
 <context>
     <name>VideoPage</name>
     <message>
+        <source>Error!</source>
+        <translation>Error!</translation>
+    </message>
+    <message>
         <source>Videoplayer</source>
         <translation>Reproductor de video</translation>
-    </message>
-    <message>
-        <source>Unable to play this video</source>
-        <translation>Incapaz de reproducir este video</translation>
-    </message>
-    <message>
-        <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Utilizar el menú deslizable para abrirlo en el navegador.</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
-        <source>Opening external link</source>
-        <translation>Abriendo enlace externo</translation>
+        <source>New friend request</source>
+        <translation>Nueva solicitud de amistad</translation>
     </message>
+    <message>
+        <source>New friend requests</source>
+        <translation>Nueva solicitud de amistad</translation>
+    </message>
+    <message>
+        <source>New message</source>
+        <translation>Nuevo mensaje</translation>
+    </message>
+<<<<<<< HEAD
 </context>
 <context>
     <name>notify</name>
+=======
     <message>
-        <source>You have</source>
-        <translation>Usted tiene</translation>
+        <source>New messages</source>
+        <translation>Nuevos mensajes</translation>
     </message>
     <message>
-        <source>message(s)</source>
-        <translation>mensaje(s)</translation>
+        <source>New notification</source>
+        <translation>Nueva notificacion</translation>
     </message>
     <message>
-        <source>friend request(s)</source>
-        <translation>solicitud de amigo(s)</translation>
+        <source>New notifications</source>
+        <translation>Nuevas notificaciones</translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation>notificación(s)</translation>
+        <source>You have %1 new friend request</source>
+        <translation>Usted tiene %1 nueva solicitud de amistad</translation>
+    </message>
+>>>>>>> upstream/master
+    <message>
+        <source>You have %1 friend requests</source>
+        <translation>Usted tiene %1 solicitudes de amistad</translation>
+    </message>
+    <message>
+        <source>You have %1 new message</source>
+        <translation>Usted tiene %1 nuevo mensaje</translation>
+    </message>
+    <message>
+        <source>You have %1 messages</source>
+        <translation>Usted tiene %1 mensajes</translation>
+    </message>
+    <message>
+        <source>You have %1 new notification</source>
+        <translation>Usted tiene %1 nueva notificación</translation>
+    </message>
+    <message>
+        <source>You have %1 notifications</source>
+        <translation>Usted tiene %1 notificaciones</translation>
+    </message>
+    <message>
+        <source>Opening external link</source>
+        <translation>Abriendo un enlace externo</translation>
     </message>
 </context>
 </TS>
